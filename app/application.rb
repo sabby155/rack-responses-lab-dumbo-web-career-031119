@@ -3,7 +3,7 @@ class Application
     resp = Rack::Response
     
 
-    resp.write "#{Time.now}"
+    if Time.now.hour.between?(0 - 11)
     
    
   
