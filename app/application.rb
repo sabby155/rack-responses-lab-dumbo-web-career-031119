@@ -3,6 +3,7 @@ class Application
     resp = Rack::Response
     
     time = Time.now 
+    resp.write
     
     
   end   
