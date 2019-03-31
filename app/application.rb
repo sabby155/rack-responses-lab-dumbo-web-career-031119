@@ -7,10 +7,9 @@ class Application
       resp.write "Good Morning!"
     elsif Time.now.hour.between?(12,17)
       resp.write "Good Afternoon!"
-      
-    
-   
-  
+    else 
+      resp.write "Good Evening!"
+    end   
     resp.finish
   end 
   
