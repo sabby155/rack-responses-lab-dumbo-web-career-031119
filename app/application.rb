@@ -5,7 +5,7 @@ class Application
     time = Time.now
     resp.write "#{time}"
     
-    
+    if time 
    
   
     resp.finish
