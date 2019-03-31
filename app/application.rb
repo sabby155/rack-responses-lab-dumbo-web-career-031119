@@ -6,10 +6,10 @@ class Application
     resp.write "#{time}"
     
     
-  end   
+   
   
-  resp.finish
-end 
+    resp.finish
+  end 
   
   
 end   
