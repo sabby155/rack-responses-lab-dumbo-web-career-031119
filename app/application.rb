@@ -2,7 +2,7 @@ class Application
   def call(env)
     resp = Rack::Response
     
-    time = Kernel.Time.now
+    timTime.now
     resp.write "#{time}"
     
    
